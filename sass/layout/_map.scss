@@ -1,0 +1,44 @@
+.section-map {
+
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mapsvg {
+    fill: gray;
+}
+
+
+svg path:hover {
+    // fill: blue;
+    animation: alert .8s infinite;
+    // transition: alert 1s;
+    transform: translateY(1.4);
+
+}
+
+
+
+
+
+@keyframes alert {
+
+    0% {
+        fill: orangered;
+
+    }
+
+    50% {
+        fill: gray;
+
+    }
+
+    100% {
+        fill: orangered;
+
+
+    }
+}
