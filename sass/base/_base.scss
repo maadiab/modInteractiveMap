@@ -1,26 +1,19 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 *,
 ::after,
-::before{
-box-sizing: border-box;
-
-
+::before {
+  box-sizing: border-box;
 }
 
-html{
-    box-sizing: inherit;
+html {
+  box-sizing: inherit;
 }
 
-body{
-background: color #777;
-position: relative;
-font-family: sans-serif;
+body {
+  background: color #777;
+  position: relative;
+  font-family: sans-serif;
 }
-
-
-
-

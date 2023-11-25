@@ -1,25 +1,26 @@
 .menu {
-width: 100%;
-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-margin: 0;
-display: flex;
-justify-content: center;
+  box-shadow: 0 0 5rem 4rem rgba(#777, 0.2);
+  margin: 0;
 
+  border-radius: 1rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  overflow: hidden;
 
+  &__nav {
+    height: auto;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+  }
 
-    &__nav {
-        height: auto;
-        border-radius: 1.5rem;
-        padding: 1rem;
-        display: flex;
-    }
-
-    &__nav-link {
-        background-color: blue;
-        padding:.7rem;
-        border-radius:.5rem;
-        color:#fff;
-        text-decoration: none;
-        margin:0 .5rem;
-    }
+  &__nav-link {
+    background-color: blue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 0.3rem;
+  }
 }
