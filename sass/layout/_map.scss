@@ -9,12 +9,18 @@
   fill: gray;
 }
 
-svg path:hover {
-  // fill: blue;
+.select {
   animation: alert 0.8s infinite;
   // transition: alert 1s;
   transform: translateY(1.4);
 }
+
+// svg path:hover {
+//   // fill: blue;
+//   animation: alert 0.8s infinite;
+//   // transition: alert 1s;
+//   transform: translateY(1.4);
+// }
 
 @keyframes alert {
   0% {

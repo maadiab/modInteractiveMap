@@ -45,7 +45,7 @@ body {
 .mapsvg {
   fill: gray; }
 
-svg path:hover {
+.select {
   animation: alert 0.8s infinite;
   transform: translateY(1.4); }
 
