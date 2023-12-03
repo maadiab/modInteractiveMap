@@ -1,7 +1,7 @@
 {
-  "name": "interactive_map",
+  "name": "mod_interactive_map",
   "version": "1.0.0",
-  "description": "interactive map",
+  "description": "mod news interactive map",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w"
